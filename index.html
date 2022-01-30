@@ -5,10 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        h1{color: goldenrod;
+        text-align: center;
+        background-color: green;
+        position:fixed;
+        width: 50%;
+        border-left: lightcoral;
+        }
+        h1:hover{color:hotpink;
+        background-color: khaki;
+        text-align: center;
+        margin: 0% 40%;
+        border: 2px solid red;
+        border-radius: 20px;
+        width: 30%;}
+            input:focus{color:sienna}
+            h1::before{content: "54 ";}
+            h1::after{content: "    bye";}
+input{margin:70px 40%;
+    height: 40px;}
+   body {counter-reset: ;}
+    p::before {
+        counter-increment: ;
+        content: "lol" counter(section)": ";}
+    </style>
 </head>
 <body>
-    <h1>HI all
+    <h1>HI all</h1>
+    <input name="eamail" type="text">
+    <input name="Password" type="password">
     
-    </h1>
+    <p>1</p>
+    <p>2</p>
+    <p>3</p>
 </body>
 </html>
